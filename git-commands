@@ -1,0 +1,100 @@
+Git tags:
+git tag v2.1.0
+git push --tags
+How to merge two  branches ?
+git cherry-pick commit-id
+1. To create new branch
+2. ex:Git checkout -b branch name
+3. Checkout to old commit.
+	ex:git checkout states/context.go or git checkout .
+Git log —author=gnaidu2@ext.uber.com
+Git reflog
+git checkout master
+git pull origin master
+Git reset —hard HEAD
+git push origin --delete asahoo7/flipr-eatsfeed
+git rebase main
+git init
+git clone --recurse-submodules https://github.com/chaconinc/MainProject
+git submodule init
+
+git remote set-branches --add origin main && git fetch origin main && git checkout main
+git branch
+Now see it set to main
+git config --add remote.origin.fetch +refs/heads/main:refs/remotes/origin/main
+Git diff main branch file name.
+Q. How to take remote branch using fetch?
+A.git fetch origin newflipr-duplicate-detector
+git checkout newflipr-duplicate-detector
+git pull origin newflipr-duplicate-detector
+git restore ../../everything/eatsfeed/config/config.go
+How do we know new commit what changes has done?
+Git show commitID.
+Git reset —hard origin/master
+git branch -r : will gives all branch list remotely:checked
+Git remote -v then chk master status.
+git status
+git commit -m "added V2 repo and updated new flipr client” 
+Git amend 
+git submodule add gitolite@code.uber.internal/devexp/deputyfx.git:V2 V2
+git submodule update --init
+git rm --cached folder/* 
+How to delete branch locally and remotely
+git push origin --delete gnaidu2/rt-control-tower
+Git add .
+Git rebase —abort,— continue
+Git reset —hard HEA ~2
+Git revert branch name
+Git restore .
+Git restore filename.
+Git stash
+
+cat .gitmodules
+git ls-files --stage | grep 160000
+git submodule add -b gnaidu2/flipr ./deputyfx.git —working
+git submodule add ./V2/deputyfx.git — working
+git clone --recursive -j8
+git rm --cached V2/deputyfx.git
+
+View
+Init
+Reset
+Show
+Switch
+Cache : git rm --cached folder/* 
+Tag -v 
+
+arc linters --verbose
+Arc flow to create branch
+Arc graft commitID to get diff in local
+arc install-certificate
+Arc diff
+Arc diff —update diffID —nounit —notes
+Arc diff —create 
+arc patch newdiff
+Arc land committed
+Arc land —onto master
+arc update
+Arc patch diffID
+Arc land —onto master
+Arc amend
+Arc diff —review
+Arc full diff
+Arc close-revision
+arc diff .^    #  hg: just the most recent commit
+arc diff HEAD^ # git: just the most recent commit
+https://secure.phabricator.com/book/phabricator/article/arcanist_commit_ranges/
+
+arc diff HEAD~ --update
+arc diff --trace
+arc diff --create
+Arc watch
+arc diff --preview
+Arc list
+arc diff --update D4525837
+arc diff HEAD~ --update D3
+arc land --revision D4769171 --onto master
+arc diff --nounit
+
+List -I | grep port no
+A. git config merge.renameLimit 999999
