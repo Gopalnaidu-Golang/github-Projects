@@ -98,3 +98,23 @@ arc diff --nounit
 
 List -I | grep port no
 A. git config merge.renameLimit 999999
+
+Git config —global user.name
+Git revert
+Git merge
+arc patch --diff 23159869 
+
+Git Lens plugin for VS Code could help to observe file changes
+Git restore —stage
+Git log —oneline
+Git commit —mn
+git reset --hard 444528a250f8a4880a0441159b59bca3ce52881f
+
+Arc flow to create branch
+Arc graft commitID to get diff in local
+arc install-certificate
+Arc diff
+Arc diff —update diffID —nounit —notes
+Arc diff —create 
+Arc land committed
+Arc land —onto master
